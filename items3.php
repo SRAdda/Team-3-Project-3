@@ -1,5 +1,6 @@
 <?php
-//items3.php
+//items3.php here is what I've been workin on but I don't know yet how the pieces fit together. 
+//Hope this helps one of you to continue with it. 
 
 //include 'icecreamindex.php';
 
@@ -31,7 +32,7 @@ $myItem->addExtra("Whipped Cream",0.49);
 $items[] = $myItem;
 
 
-//create a counter to load the ids...
+//create a counter to load the ids... (I don't know yet how to do this)
 //$items[] = new Item(1,"Taco","Our Tacos are awesome!",4.95);
 //$items[] = new Item(2,"Sundae","Our Sundaes are awesome!",3.95);
 //$items[] = new Item(3,"Salad","Our Salads are awesome!",5.95);
