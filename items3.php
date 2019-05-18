@@ -2,7 +2,7 @@
 //items3.php here is what I've been workin on but I don't know yet how the pieces fit together. 
 //Hope this helps one of you to continue with it. 
 
-//include 'icecreamindex.php';
+
 
 $myItem = new Item(1,"Sundae","Three Scoops and custom toppers!",5.95);
 $myItem->addExtra("Chocolate Sauce",0.49);
