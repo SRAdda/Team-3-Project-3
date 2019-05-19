@@ -24,7 +24,7 @@ ob_start(); // buffers our page to be prevent header errors. Call before INC fil
  */
 if (SECURE && $_SERVER['SERVER_PORT'] != 443) {
     #redirect to force HTTPS
-    header("Location: https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URL']);
+    header("Location: https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 } else {
     //add protocol to virtual path
     $protocol = SECURE ? 'https://' : 'http://';
