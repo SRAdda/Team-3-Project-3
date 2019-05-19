@@ -1,0 +1,24 @@
+<--bootstrapoverride-->
+
+body {
+ margin: 10%;
+ text-align: center;
+ background-image: url('../images/truck.png');
+
+}
+
+.container {
+    background-color: rgb(197, 225, 235);
+
+}
+
+img {
+    margin-top:-100px;
+    margin-left:325px;
+    margin-bottom:-75px;
+
+}
+
+
+
+
